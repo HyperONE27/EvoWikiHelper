@@ -1,0 +1,236 @@
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Build time decreased from 17 seconds to 16 seconds.
+* Attack period decreased from 0.69 seconds to 0.67 seconds.
+* Stimpack attack speed bonus for the Marine decreased from 100% to 75%.
+** Attack period after Stimpack increased from 0.34 seconds to 0.38 seconds.
+* Stimpack cooldown increased from 0 seconds to 0.71 seconds.
+* U-238 Shells research time decreased from 86 seconds to 64 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* HP decreased from 55 to 50.
+* Weapon is no longer considered Melee, and can now hit targets behind structure walls or across unwalkable zones, but not on different cliff levels.
+* Weapon is now affected by [[Blinding Cloud]].
+* Weapon 100% AoE damage zone is now affected by [[Guardian Shield]] and [[Microbial Shroud]].
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Build time decreased from 17 seconds to 16 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Lockdown effect duration decreased from 27 seconds to 23.8 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* No longer deals damage in its 50% and 25% AoE damage zones to other burrowed Spider Mines.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Increased allied push priority from 0 to 1.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Increased Burst Lasers attack range from 4 to 5.
+* Decreased Gemini Missiles attack period from 0.98 seconds to 0.94 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Attacks now cycle through 14 different offset positions around the target.
+* Immobile duration when attacking decreased from 1.65 seconds to 1.61 seconds.
+* Attack delay between missiles decreased from 0.42 seconds to 0.40 seconds.
+* Attack period decreased from 2.69 seconds to 2.68 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Defensive Matrix effect duration decreased from 42 seconds to 28.6 seconds.
+* EMP Shockwave research time decreased from 71 seconds to 57 seconds.
+* Irradiate effect radius increased from [radius of target unit] + 1 to [radius of target unit] + 1.125.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Build cost decreased from 375/275 to 350/250.
+* HP decreased from 550 to 500.
+* ATS Laser Battery attack damage decreased from 36 + 8 vs Mechanical to 34.
+* ATS Laser Battery attack damage increase per upgrade decreased from +4 to +3.
+* ATA Laser Battery attack damage decreased from 36 + 8 vs Mechanical to 34.
+* ATA Laser Battery attack damage increase per upgrade decreased from +4 to +3.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Pneumatized Carapace movement speed bonus increased from 2.16 to 2.25.
+** Movement speed after Pneumatized Carapace increased from 3.06 to 3.15.
+* Ventral Sacs research cost decreased from 175/175 to 150/150.
+* Ventral Sacs research time decreased from 71 seconds to 64 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Attack period decreased from 0.69 seconds to 0.67 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Attack damage increase per upgrade increased from +2 to +3.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* HP increased from 25 to 30.
+* Attack damage point decreased from 0.04 seconds to 0 seconds.
+* Now automatically targets air units with anti-ground weapons.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Attack range increased from 4 to 4.5.
+|}
+
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Acid Spores behavior expiration cooldown increased from 15 seconds to 27.1 seconds.
+* Acid Spores no longer affects the rate at which [[Carriers]] launch [[Interceptors]].
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Attack damage point decreased from 0.12 seconds to 0.07 seconds.
+* Attack damage increase per upgrade increased from +2 to +3.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Ensnare no longer slows the attack speed of units with turret weapons.
+** This includes the Siege Tank ([[User:SCEvo/Siege Tank|BW]] and [[Siege Tank|SC2]]), [[User:SCEvo/Goliath|Goliath]], [[Hellion]], [[Hellbat]], [[Cyclone]], [[Liberator]] (Defender Mode only), [[Battlecruiser]] (SC2 only), [[Immortal]], and [[Colossus]].
+* Ensnare no longer affects the rate at which [[Carriers]] launch Interceptors or [[User:SCEvo/Reaver|Reavers]] launch [[User:SCEvo/Scarab|Scarabs]].
+* Ensnare effect duration decreased from 21.4 seconds to 14.3 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Dark Swarm effect duration decreased from 32.1 seconds to 20 seconds.
+* Dark Swarm now prevents units inside from taking damage from the 50% and 25% AoE damage zones of radial splash attacks, such as those of the [[Siege Tank]] and [[Archon]].
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Anabolic Synthesis research cost decreased from 150/150 to 125/125.
+* Chitinous Plating research cost decreased from 150/150 to 125/125.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Build time increased from 29 seconds to 36 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Build time decreased from 30 seconds to 27 seconds.
+* Attack damage increase per upgrade increased from +3 to +5.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Feedback cast range increased from 10 to 10.5.
+* Units possessed by Mind Control now consume supply:
+** Brood War and StarCraft II Terran units now consume a shared Food pool, up to a max of 200.
+** Brood War and StarCraft II Zerg units now consume a shared Control pool, up to a max of 200.
+** Brood War and StarCraft II Protoss units now consume a shared Psi pool, up to a max of 200.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Dual Photon Blasters attack damage decreased from 4 (x4) to 7 (x2).
+* Dual Photon Blasters attack damage bonus increased from +1 vs Light to +2 vs Light.
+* Dual Photon Blasters attack damage increase per upgrade increased from +0.5 to +1.
+* Dual Photon Blasters attack period decreased from 1.25 seconds to 1.12 seconds.
+* Dual Photon Blasters attack point decreased from 0.12 seconds to 0.07 seconds.
+* Dual Photon Blasters attack range increased from 4 to 5.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Build time increased from 22 seconds to 23 seconds.
+* Disruption Web Energy cost decreased from 125 to 100.
+* Disruption Web effect duration decreased from 12.5 seconds to 10.7 seconds.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Now fire projectiles instead of lasers.
+* Attack projectile speed increased from 19.6 to 23.6.
+|}
+
+{| class="wikitable collapsible collapsed"
+! Patch 1.17<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_17.html|title=SCEvo Update 1.17 Notes|author=Team Koprulu|publisher=Team Koprulu|date=8 October 2025}}</ref>
+|-
+|
+* Stasis Field effect duration decreased from 32.9 seconds to 23.6 seconds.
+* Recall activation delay decreased from 1.43 seconds to 0.98 seconds.
+* Recall no longer stuns affected units.
+* Recall no longer automatically fails when targeting ground units if there is no unpathable ground directly under the Arbiter, and instead will try to find a suitable location to place units up to 3 tiles away.
+|}

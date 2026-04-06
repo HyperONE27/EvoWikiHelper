@@ -1,8 +1,1644 @@
 {
-  "units": {
+  "_meta": {
+    "slug_notes": "Slugs use underscores for spaces. Ability slugs are prefixed with SCAbility/, upgrade slugs with SCUpgrade/. Units and structures have no prefix.",
+    "belongs_to_notes": "Em-dash associations. In output B, changes to this entity belong in the changebox of the belongs_to entity.",
+    "ordering_notes": "In output B change boxes, when an upgrade unlocks an ability, changes about the upgrade should precede changes to the ability."
   },
-  "abilities": {
+  "terran": {
+    "units": {
+      "SCV": {
+        "name": "SCV",
+        "slug": "SCV"
+      },
+      "Marine": {
+        "name": "Marine",
+        "slug": "Marine"
+      },
+      "Firebat": {
+        "name": "Firebat",
+        "slug": "Firebat"
+      },
+      "Ghost": {
+        "name": "Ghost",
+        "slug": "Ghost"
+      },
+      "Medic": {
+        "name": "Medic",
+        "slug": "Medic"
+      },
+      "Vulture": {
+        "name": "Vulture",
+        "slug": "Vulture"
+      },
+      "Spider Mine": {
+        "name": "Spider Mine",
+        "slug": "Spider_Mine"
+      },
+      "Siege Tank": {
+        "name": "Siege Tank",
+        "slug": "Siege_Tank"
+      },
+      "Goliath": {
+        "name": "Goliath",
+        "slug": "Goliath"
+      },
+      "Wraith": {
+        "name": "Wraith",
+        "slug": "Wraith"
+      },
+      "Dropship": {
+        "name": "Dropship",
+        "slug": "Dropship"
+      },
+      "Valkyrie": {
+        "name": "Valkyrie",
+        "slug": "Valkyrie"
+      },
+      "Science Vessel": {
+        "name": "Science Vessel",
+        "slug": "Science_Vessel"
+      },
+      "Battlecruiser": {
+        "name": "Battlecruiser",
+        "slug": "Battlecruiser"
+      },
+      "Nuclear Missile": {
+        "name": "Nuclear Missile",
+        "slug": "Nuclear_Missile"
+      }
+    },
+    "structures": {
+      "Command Center": {
+        "name": "Command Center",
+        "slug": "Command_Center"
+      },
+      "Supply Depot": {
+        "name": "Supply Depot",
+        "slug": "Supply_Depot"
+      },
+      "Refinery": {
+        "name": "Refinery",
+        "slug": "Refinery"
+      },
+      "Barracks": {
+        "name": "Barracks",
+        "slug": "Barracks"
+      },
+      "Engineering Bay": {
+        "name": "Engineering Bay",
+        "slug": "Engineering_Bay"
+      },
+      "Academy": {
+        "name": "Academy",
+        "slug": "Academy"
+      },
+      "Bunker": {
+        "name": "Bunker",
+        "slug": "Bunker"
+      },
+      "Missile Turret": {
+        "name": "Missile Turret",
+        "slug": "Missile_Turret"
+      },
+      "Factory": {
+        "name": "Factory",
+        "slug": "Factory"
+      },
+      "Starport": {
+        "name": "Starport",
+        "slug": "Starport"
+      },
+      "Armory": {
+        "name": "Armory",
+        "slug": "Armory"
+      },
+      "Science Facility": {
+        "name": "Science Facility",
+        "slug": "Science_Facility"
+      },
+      "Comsat Station": {
+        "name": "Comsat Station",
+        "slug": "Comsat_Station"
+      },
+      "Machine Shop": {
+        "name": "Machine Shop",
+        "slug": "Machine_Shop"
+      },
+      "Control Tower": {
+        "name": "Control Tower",
+        "slug": "Control_Tower"
+      },
+      "Physics Lab": {
+        "name": "Physics Lab",
+        "slug": "Physics_Lab"
+      },
+      "Covert Ops": {
+        "name": "Covert Ops",
+        "slug": "Covert_Ops"
+      },
+      "Nuclear Silo": {
+        "name": "Nuclear Silo",
+        "slug": "Nuclear_Silo"
+      }
+    },
+    "abilities": {
+      "Gather": {
+        "name": "Gather",
+        "slug": "SCAbility/Gather",
+        "belongs_to": [
+          "SCV"
+        ]
+      },
+      "Build": {
+        "name": "Build",
+        "slug": "SCAbility/Build",
+        "belongs_to": [
+          "SCV"
+        ]
+      },
+      "Advanced Build": {
+        "name": "Advanced Build",
+        "slug": "SCAbility/Advanced_Build",
+        "belongs_to": [
+          "SCV"
+        ]
+      },
+      "Repair": {
+        "name": "Repair",
+        "slug": "SCAbility/Repair",
+        "belongs_to": [
+          "SCV"
+        ]
+      },
+      "Stimpack": {
+        "name": "Stimpack",
+        "slug": "SCAbility/Stimpack",
+        "belongs_to": [
+          "Marine",
+          "Firebat"
+        ]
+      },
+      "Hold Fire": {
+        "name": "Hold Fire",
+        "slug": "SCAbility/Hold_Fire",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Weapons Free": {
+        "name": "Weapons Free",
+        "slug": "SCAbility/Weapons_Free",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Cloak Ghost": {
+        "name": "Cloak Ghost",
+        "slug": "SCAbility/Cloak_Ghost",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Lockdown": {
+        "name": "Lockdown",
+        "slug": "SCAbility/Lockdown",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Tac Nuke Strike": {
+        "name": "Tac Nuke Strike",
+        "slug": "SCAbility/Tac_Nuke_Strike",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Heal": {
+        "name": "Heal",
+        "slug": "SCAbility/Heal",
+        "belongs_to": [
+          "Medic"
+        ]
+      },
+      "Restoration": {
+        "name": "Restoration",
+        "slug": "SCAbility/Restoration",
+        "belongs_to": [
+          "Medic"
+        ]
+      },
+      "Optical Flare": {
+        "name": "Optical Flare",
+        "slug": "SCAbility/Optical_Flare",
+        "belongs_to": [
+          "Medic"
+        ]
+      },
+      "Spider Mines": {
+        "name": "Spider Mines",
+        "slug": "SCAbility/Spider_Mines",
+        "belongs_to": [
+          "Vulture"
+        ]
+      },
+      "Siege Mode": {
+        "name": "Siege Mode",
+        "slug": "SCAbility/Siege_Mode",
+        "belongs_to": [
+          "Siege Tank"
+        ]
+      },
+      "Tank Mode": {
+        "name": "Tank Mode",
+        "slug": "SCAbility/Tank_Mode",
+        "belongs_to": [
+          "Siege Tank"
+        ]
+      },
+      "Cloak Wraith": {
+        "name": "Cloak Wraith",
+        "slug": "SCAbility/Cloak_Wraith",
+        "belongs_to": [
+          "Wraith"
+        ]
+      },
+      "Load": {
+        "name": "Load",
+        "slug": "SCAbility/Load",
+        "belongs_to": [
+          "Dropship"
+        ]
+      },
+      "Unload": {
+        "name": "Unload",
+        "slug": "SCAbility/Unload",
+        "belongs_to": [
+          "Dropship"
+        ]
+      },
+      "Defensive Matrix": {
+        "name": "Defensive Matrix",
+        "slug": "SCAbility/Defensive_Matrix",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "EMP Shockwave": {
+        "name": "EMP Shockwave",
+        "slug": "SCAbility/EMP_Shockwave",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "Irradiate": {
+        "name": "Irradiate",
+        "slug": "SCAbility/Irradiate",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "Detect": {
+        "name": "Detect",
+        "slug": "SCAbility/Detect",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "Yamato Gun": {
+        "name": "Yamato Gun",
+        "slug": "SCAbility/Yamato_Gun",
+        "belongs_to": [
+          "Battlecruiser"
+        ]
+      }
+    },
+    "upgrades": {
+      "Stimpack": {
+        "name": "Stimpack",
+        "slug": "SCUpgrade/Stimpack",
+        "belongs_to": [
+          "Marine",
+          "Firebat"
+        ]
+      },
+      "U-238 Shells": {
+        "name": "U-238 Shells",
+        "slug": "SCUpgrade/U-238_Shells",
+        "belongs_to": [
+          "Marine"
+        ]
+      },
+      "Cloak Ghost": {
+        "name": "Cloak Ghost",
+        "slug": "SCUpgrade/Cloak_Ghost",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Lockdown": {
+        "name": "Lockdown",
+        "slug": "SCUpgrade/Lockdown",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Ocular Implants": {
+        "name": "Ocular Implants",
+        "slug": "SCUpgrade/Ocular_Implants",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Moebius Reactor": {
+        "name": "Moebius Reactor",
+        "slug": "SCUpgrade/Moebius_Reactor",
+        "belongs_to": [
+          "Ghost"
+        ]
+      },
+      "Restoration": {
+        "name": "Restoration",
+        "slug": "SCUpgrade/Restoration",
+        "belongs_to": [
+          "Medic"
+        ]
+      },
+      "Optical Flare": {
+        "name": "Optical Flare",
+        "slug": "SCUpgrade/Optical_Flare",
+        "belongs_to": [
+          "Medic"
+        ]
+      },
+      "Caduceus Reactor": {
+        "name": "Caduceus Reactor",
+        "slug": "SCUpgrade/Caduceus_Reactor",
+        "belongs_to": [
+          "Medic"
+        ]
+      },
+      "Ion Thrusters": {
+        "name": "Ion Thrusters",
+        "slug": "SCUpgrade/Ion_Thrusters",
+        "belongs_to": [
+          "Vulture"
+        ]
+      },
+      "Spider Mines": {
+        "name": "Spider Mines",
+        "slug": "SCUpgrade/Spider_Mines",
+        "belongs_to": [
+          "Vulture"
+        ]
+      },
+      "Siege Mode": {
+        "name": "Siege Mode",
+        "slug": "SCUpgrade/Siege_Mode",
+        "belongs_to": [
+          "Siege Tank"
+        ]
+      },
+      "Charon Boosters": {
+        "name": "Charon Boosters",
+        "slug": "SCUpgrade/Charon_Boosters",
+        "belongs_to": [
+          "Goliath"
+        ]
+      },
+      "Cloaking Field": {
+        "name": "Cloaking Field",
+        "slug": "SCUpgrade/Cloaking_Field",
+        "belongs_to": [
+          "Wraith"
+        ]
+      },
+      "Apollo Reactor": {
+        "name": "Apollo Reactor",
+        "slug": "SCUpgrade/Apollo_Reactor",
+        "belongs_to": [
+          "Wraith"
+        ]
+      },
+      "EMP Shockwave": {
+        "name": "EMP Shockwave",
+        "slug": "SCUpgrade/EMP_Shockwave",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "Irradiate": {
+        "name": "Irradiate",
+        "slug": "SCUpgrade/Irradiate",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "Titan Reactor": {
+        "name": "Titan Reactor",
+        "slug": "SCUpgrade/Titan_Reactor",
+        "belongs_to": [
+          "Science Vessel"
+        ]
+      },
+      "Yamato Gun": {
+        "name": "Yamato Gun",
+        "slug": "SCUpgrade/Yamato_Gun",
+        "belongs_to": [
+          "Battlecruiser"
+        ]
+      },
+      "Colossus Reactor": {
+        "name": "Colossus Reactor",
+        "slug": "SCUpgrade/Colossus_Reactor",
+        "belongs_to": [
+          "Battlecruiser"
+        ]
+      },
+      "Infantry Weapons Level 1": {
+        "name": "Infantry Weapons Level 1",
+        "slug": "SCUpgrade/Infantry_Weapons_Level_1",
+        "belongs_to": [
+          "Engineering Bay"
+        ]
+      },
+      "Infantry Weapons Level 2": {
+        "name": "Infantry Weapons Level 2",
+        "slug": "SCUpgrade/Infantry_Weapons_Level_2",
+        "belongs_to": [
+          "Engineering Bay"
+        ]
+      },
+      "Infantry Weapons Level 3": {
+        "name": "Infantry Weapons Level 3",
+        "slug": "SCUpgrade/Infantry_Weapons_Level_3",
+        "belongs_to": [
+          "Engineering Bay"
+        ]
+      },
+      "Infantry Armor Level 1": {
+        "name": "Infantry Armor Level 1",
+        "slug": "SCUpgrade/Infantry_Armor_Level_1",
+        "belongs_to": [
+          "Engineering Bay"
+        ]
+      },
+      "Infantry Armor Level 2": {
+        "name": "Infantry Armor Level 2",
+        "slug": "SCUpgrade/Infantry_Armor_Level_2",
+        "belongs_to": [
+          "Engineering Bay"
+        ]
+      },
+      "Infantry Armor Level 3": {
+        "name": "Infantry Armor Level 3",
+        "slug": "SCUpgrade/Infantry_Armor_Level_3",
+        "belongs_to": [
+          "Engineering Bay"
+        ]
+      },
+      "Vehicle Weapons Level 1": {
+        "name": "Vehicle Weapons Level 1",
+        "slug": "SCUpgrade/Vehicle_Weapons_Level_1",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Vehicle Weapons Level 2": {
+        "name": "Vehicle Weapons Level 2",
+        "slug": "SCUpgrade/Vehicle_Weapons_Level_2",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Vehicle Weapons Level 3": {
+        "name": "Vehicle Weapons Level 3",
+        "slug": "SCUpgrade/Vehicle_Weapons_Level_3",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Vehicle Plating Level 1": {
+        "name": "Vehicle Plating Level 1",
+        "slug": "SCUpgrade/Vehicle_Plating_Level_1",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Vehicle Plating Level 2": {
+        "name": "Vehicle Plating Level 2",
+        "slug": "SCUpgrade/Vehicle_Plating_Level_2",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Vehicle Plating Level 3": {
+        "name": "Vehicle Plating Level 3",
+        "slug": "SCUpgrade/Vehicle_Plating_Level_3",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Ship Weapons Level 1": {
+        "name": "Ship Weapons Level 1",
+        "slug": "SCUpgrade/Ship_Weapons_Level_1",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Ship Weapons Level 2": {
+        "name": "Ship Weapons Level 2",
+        "slug": "SCUpgrade/Ship_Weapons_Level_2",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Ship Weapons Level 3": {
+        "name": "Ship Weapons Level 3",
+        "slug": "SCUpgrade/Ship_Weapons_Level_3",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Ship Plating Level 1": {
+        "name": "Ship Plating Level 1",
+        "slug": "SCUpgrade/Ship_Plating_Level_1",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Ship Plating Level 2": {
+        "name": "Ship Plating Level 2",
+        "slug": "SCUpgrade/Ship_Plating_Level_2",
+        "belongs_to": [
+          "Armory"
+        ]
+      },
+      "Ship Plating Level 3": {
+        "name": "Ship Plating Level 3",
+        "slug": "SCUpgrade/Ship_Plating_Level_3",
+        "belongs_to": [
+          "Armory"
+        ]
+      }
+    }
   },
-  "upgrades": {
+  "zerg": {
+    "units": {
+      "Larva": {
+        "name": "Larva",
+        "slug": "Larva"
+      },
+      "Zerg Cocoon": {
+        "name": "Zerg Cocoon",
+        "slug": "Zerg_Cocoon"
+      },
+      "Drone": {
+        "name": "Drone",
+        "slug": "Drone"
+      },
+      "Zergling": {
+        "name": "Zergling",
+        "slug": "Zergling"
+      },
+      "Hydralisk": {
+        "name": "Hydralisk",
+        "slug": "Hydralisk"
+      },
+      "Lurker Egg": {
+        "name": "Lurker Egg",
+        "slug": "Lurker_Egg",
+        "belongs_to": [
+          "Zerg Cocoon"
+        ]
+      },
+      "Lurker": {
+        "name": "Lurker",
+        "slug": "Lurker"
+      },
+      "Defiler": {
+        "name": "Defiler",
+        "slug": "Defiler"
+      },
+      "Ultralisk": {
+        "name": "Ultralisk",
+        "slug": "Ultralisk"
+      },
+      "Broodling": {
+        "name": "Broodling",
+        "slug": "Broodling"
+      },
+      "Infested Terran": {
+        "name": "Infested Terran",
+        "slug": "Infested_Terran"
+      },
+      "Overlord": {
+        "name": "Overlord",
+        "slug": "Overlord"
+      },
+      "Queen": {
+        "name": "Queen",
+        "slug": "Queen"
+      },
+      "Mutalisk": {
+        "name": "Mutalisk",
+        "slug": "Mutalisk"
+      },
+      "Guardian Cocoon": {
+        "name": "Guardian Cocoon",
+        "slug": "Guardian_Cocoon",
+        "belongs_to": [
+          "Zerg Cocoon"
+        ]
+      },
+      "Devourer Cocoon": {
+        "name": "Devourer Cocoon",
+        "slug": "Devourer_Cocoon",
+        "belongs_to": [
+          "Zerg Cocoon"
+        ]
+      },
+      "Scourge": {
+        "name": "Scourge",
+        "slug": "Scourge"
+      },
+      "Guardian": {
+        "name": "Guardian",
+        "slug": "Guardian"
+      },
+      "Devourer": {
+        "name": "Devourer",
+        "slug": "Devourer"
+      }
+    },
+    "structures": {
+      "Hatchery": {
+        "name": "Hatchery",
+        "slug": "Hatchery"
+      },
+      "Creep Colony": {
+        "name": "Creep Colony",
+        "slug": "Creep_Colony"
+      },
+      "Sunken Colony": {
+        "name": "Sunken Colony",
+        "slug": "Sunken_Colony",
+        "belongs_to": [
+          "Creep Colony"
+        ]
+      },
+      "Spore Colony": {
+        "name": "Spore Colony",
+        "slug": "Spore_Colony",
+        "belongs_to": [
+          "Creep Colony"
+        ]
+      },
+      "Extractor": {
+        "name": "Extractor",
+        "slug": "Extractor"
+      },
+      "Spawning Pool": {
+        "name": "Spawning Pool",
+        "slug": "Spawning_Pool"
+      },
+      "Evolution Chamber": {
+        "name": "Evolution Chamber",
+        "slug": "Evolution_Chamber"
+      },
+      "Hydralisk Den": {
+        "name": "Hydralisk Den",
+        "slug": "Hydralisk_Den"
+      },
+      "Infested Command Center": {
+        "name": "Infested Command Center",
+        "slug": "Infested_Command_Center"
+      },
+      "Lair": {
+        "name": "Lair",
+        "slug": "Lair"
+      },
+      "Queen's Nest": {
+        "name": "Queen's Nest",
+        "slug": "Queen's_Nest"
+      },
+      "Spire": {
+        "name": "Spire",
+        "slug": "Spire"
+      },
+      "Hive": {
+        "name": "Hive",
+        "slug": "Hive"
+      },
+      "Greater Spire": {
+        "name": "Greater Spire",
+        "slug": "Greater_Spire"
+      },
+      "Ultralisk Cavern": {
+        "name": "Ultralisk Cavern",
+        "slug": "Ultralisk_Cavern"
+      },
+      "Defiler Mound": {
+        "name": "Defiler Mound",
+        "slug": "Defiler_Mound"
+      },
+      "Nydus Canal": {
+        "name": "Nydus Canal",
+        "slug": "Nydus_Canal"
+      }
+    },
+    "abilities": {
+      "Gather": {
+        "name": "Gather",
+        "slug": "SCAbility/Gather",
+        "belongs_to": [
+          "Drone"
+        ]
+      },
+      "Basic Mutation": {
+        "name": "Basic Mutation",
+        "slug": "SCAbility/Basic_Mutation",
+        "belongs_to": [
+          "Drone"
+        ]
+      },
+      "Advanced Mutation": {
+        "name": "Advanced Mutation",
+        "slug": "SCAbility/Advanced_Mutation",
+        "belongs_to": [
+          "Drone"
+        ]
+      },
+      "Burrow — Drone": {
+        "name": "Burrow",
+        "slug": "SCAbility/Burrow",
+        "belongs_to": [
+          "Drone"
+        ]
+      },
+      "Burrow — Zergling": {
+        "name": "Burrow",
+        "slug": "SCAbility/Burrow",
+        "belongs_to": [
+          "Zergling"
+        ]
+      },
+      "Burrow — Hydralisk": {
+        "name": "Burrow",
+        "slug": "SCAbility/Burrow",
+        "belongs_to": [
+          "Hydralisk"
+        ]
+      },
+      "Burrow — Defiler": {
+        "name": "Burrow",
+        "slug": "SCAbility/Burrow",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Burrow — Infested Terran": {
+        "name": "Burrow",
+        "slug": "SCAbility/Burrow",
+        "belongs_to": [
+          "Infested Terran"
+        ]
+      },
+      "Burrow — Lurker": {
+        "name": "Burrow",
+        "slug": "SCAbility/Burrow",
+        "belongs_to": [
+          "Lurker"
+        ]
+      },
+      "Dark Swarm": {
+        "name": "Dark Swarm",
+        "slug": "SCAbility/Dark_Swarm",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Plague": {
+        "name": "Plague",
+        "slug": "SCAbility/Plague",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Consume": {
+        "name": "Consume",
+        "slug": "SCAbility/Consume",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Explode": {
+        "name": "Explode",
+        "slug": "SCAbility/Explode",
+        "belongs_to": [
+          "Infested Terran"
+        ]
+      },
+      "Load": {
+        "name": "Load",
+        "slug": "SCAbility/Load",
+        "belongs_to": [
+          "Overlord"
+        ]
+      },
+      "Unload": {
+        "name": "Unload",
+        "slug": "SCAbility/Unload",
+        "belongs_to": [
+          "Overlord"
+        ]
+      },
+      "Detect": {
+        "name": "Detect",
+        "slug": "SCAbility/Detect",
+        "belongs_to": [
+          "Overlord"
+        ]
+      },
+      "Parasite": {
+        "name": "Parasite",
+        "slug": "SCAbility/Parasite",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Spawn Broodlings": {
+        "name": "Spawn Broodlings",
+        "slug": "SCAbility/Spawn_Broodlings",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Ensnare": {
+        "name": "Ensnare",
+        "slug": "SCAbility/Ensnare",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Infest Command Center": {
+        "name": "Infest Command Center",
+        "slug": "SCAbility/Infest_Command_Center",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Spawn Nydus Canal": {
+        "name": "Spawn Nydus Canal",
+        "slug": "SCAbility/Spawn_Nydus_Canal",
+        "belongs_to": [
+          "Nydus Canal"
+        ]
+      }
+    },
+    "upgrades": {
+      "Burrow": {
+        "name": "Burrow",
+        "slug": "SCUpgrade/Burrow",
+        "belongs_to": [
+          "Hatchery",
+          "Lair",
+          "Hive"
+        ]
+      },
+      "Metabolic Boost": {
+        "name": "Metabolic Boost",
+        "slug": "SCUpgrade/Metabolic_Boost",
+        "belongs_to": [
+          "Zergling"
+        ]
+      },
+      "Adrenal Glands": {
+        "name": "Adrenal Glands",
+        "slug": "SCUpgrade/Adrenal_Glands",
+        "belongs_to": [
+          "Zergling"
+        ]
+      },
+      "Muscular Augments": {
+        "name": "Muscular Augments",
+        "slug": "SCUpgrade/Muscular_Augments",
+        "belongs_to": [
+          "Hydralisk"
+        ]
+      },
+      "Grooved Spines": {
+        "name": "Grooved Spines",
+        "slug": "SCUpgrade/Grooved_Spines",
+        "belongs_to": [
+          "Hydralisk"
+        ]
+      },
+      "Lurker Aspect": {
+        "name": "Lurker Aspect",
+        "slug": "SCUpgrade/Lurker_Aspect",
+        "belongs_to": [
+          "Hydralisk",
+          "Lurker"
+        ]
+      },
+      "Consume": {
+        "name": "Consume",
+        "slug": "SCUpgrade/Consume",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Metasynaptic Node": {
+        "name": "Metasynaptic Node",
+        "slug": "SCUpgrade/Metasynaptic_Node",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Plague": {
+        "name": "Plague",
+        "slug": "SCUpgrade/Plague",
+        "belongs_to": [
+          "Defiler"
+        ]
+      },
+      "Anabolic Synthesis": {
+        "name": "Anabolic Synthesis",
+        "slug": "SCUpgrade/Anabolic_Synthesis",
+        "belongs_to": [
+          "Ultralisk"
+        ]
+      },
+      "Chitinous Plating": {
+        "name": "Chitinous Plating",
+        "slug": "SCUpgrade/Chitinous_Plating",
+        "belongs_to": [
+          "Ultralisk"
+        ]
+      },
+      "Ventral Sacs": {
+        "name": "Ventral Sacs",
+        "slug": "SCUpgrade/Ventral_Sacs",
+        "belongs_to": [
+          "Overlord"
+        ]
+      },
+      "Antennae": {
+        "name": "Antennae",
+        "slug": "SCUpgrade/Antennae",
+        "belongs_to": [
+          "Overlord"
+        ]
+      },
+      "Pneumatized Carapace": {
+        "name": "Pneumatized Carapace",
+        "slug": "SCUpgrade/Pneumatized_Carapace",
+        "belongs_to": [
+          "Overlord"
+        ]
+      },
+      "Ensnare": {
+        "name": "Ensnare",
+        "slug": "SCUpgrade/Ensnare",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Spawn Broodlings": {
+        "name": "Spawn Broodlings",
+        "slug": "SCUpgrade/Spawn_Broodlings",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Gamete Meiosis": {
+        "name": "Gamete Meiosis",
+        "slug": "SCUpgrade/Gamete_Meiosis",
+        "belongs_to": [
+          "Queen"
+        ]
+      },
+      "Melee Attacks Level 1": {
+        "name": "Melee Attacks Level 1",
+        "slug": "SCUpgrade/Melee_Attacks_Level_1",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Melee Attacks Level 2": {
+        "name": "Melee Attacks Level 2",
+        "slug": "SCUpgrade/Melee_Attacks_Level_2",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Melee Attacks Level 3": {
+        "name": "Melee Attacks Level 3",
+        "slug": "SCUpgrade/Melee_Attacks_Level_3",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Missile Attacks Level 1": {
+        "name": "Missile Attacks Level 1",
+        "slug": "SCUpgrade/Missile_Attacks_Level_1",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Missile Attacks Level 2": {
+        "name": "Missile Attacks Level 2",
+        "slug": "SCUpgrade/Missile_Attacks_Level_2",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Missile Attacks Level 3": {
+        "name": "Missile Attacks Level 3",
+        "slug": "SCUpgrade/Missile_Attacks_Level_3",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Ground Carapace Level 1": {
+        "name": "Ground Carapace Level 1",
+        "slug": "SCUpgrade/Ground_Carapace_Level_1",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Ground Carapace Level 2": {
+        "name": "Ground Carapace Level 2",
+        "slug": "SCUpgrade/Ground_Carapace_Level_2",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Ground Carapace Level 3": {
+        "name": "Ground Carapace Level 3",
+        "slug": "SCUpgrade/Ground_Carapace_Level_3",
+        "belongs_to": [
+          "Evolution Chamber"
+        ]
+      },
+      "Flyer Attacks Level 1": {
+        "name": "Flyer Attacks Level 1",
+        "slug": "SCUpgrade/Flyer_Attacks_Level_1",
+        "belongs_to": [
+          "Spire",
+          "Greater Spire"
+        ]
+      },
+      "Flyer Attacks Level 2": {
+        "name": "Flyer Attacks Level 2",
+        "slug": "SCUpgrade/Flyer_Attacks_Level_2",
+        "belongs_to": [
+          "Spire",
+          "Greater Spire"
+        ]
+      },
+      "Flyer Attacks Level 3": {
+        "name": "Flyer Attacks Level 3",
+        "slug": "SCUpgrade/Flyer_Attacks_Level_3",
+        "belongs_to": [
+          "Spire",
+          "Greater Spire"
+        ]
+      },
+      "Flyer Carapace Level 1": {
+        "name": "Flyer Carapace Level 1",
+        "slug": "SCUpgrade/Flyer_Carapace_Level_1",
+        "belongs_to": [
+          "Spire",
+          "Greater Spire"
+        ]
+      },
+      "Flyer Carapace Level 2": {
+        "name": "Flyer Carapace Level 2",
+        "slug": "SCUpgrade/Flyer_Carapace_Level_2",
+        "belongs_to": [
+          "Spire",
+          "Greater Spire"
+        ]
+      },
+      "Flyer Carapace Level 3": {
+        "name": "Flyer Carapace Level 3",
+        "slug": "SCUpgrade/Flyer_Carapace_Level_3",
+        "belongs_to": [
+          "Spire",
+          "Greater Spire"
+        ]
+      }
+    }
+  },
+  "protoss": {
+    "units": {
+      "Probe": {
+        "name": "Probe",
+        "slug": "Probe"
+      },
+      "Zealot": {
+        "name": "Zealot",
+        "slug": "Zealot"
+      },
+      "Dragoon": {
+        "name": "Dragoon",
+        "slug": "Dragoon"
+      },
+      "High Templar": {
+        "name": "High Templar",
+        "slug": "High_Templar"
+      },
+      "Dark Templar": {
+        "name": "Dark Templar",
+        "slug": "Dark_Templar"
+      },
+      "Reaver": {
+        "name": "Reaver",
+        "slug": "Reaver"
+      },
+      "Scarab": {
+        "name": "Scarab",
+        "slug": "Scarab"
+      },
+      "Archon": {
+        "name": "Archon",
+        "slug": "Archon"
+      },
+      "Dark Archon": {
+        "name": "Dark Archon",
+        "slug": "Dark_Archon"
+      },
+      "Observer": {
+        "name": "Observer",
+        "slug": "Observer"
+      },
+      "Shuttle": {
+        "name": "Shuttle",
+        "slug": "Shuttle"
+      },
+      "Scout": {
+        "name": "Scout",
+        "slug": "Scout"
+      },
+      "Corsair": {
+        "name": "Corsair",
+        "slug": "Corsair"
+      },
+      "Carrier": {
+        "name": "Carrier",
+        "slug": "Carrier"
+      },
+      "Interceptor": {
+        "name": "Interceptor",
+        "slug": "Interceptor"
+      },
+      "Arbiter": {
+        "name": "Arbiter",
+        "slug": "Arbiter"
+      }
+    },
+    "structures": {
+      "Nexus": {
+        "name": "Nexus",
+        "slug": "Nexus"
+      },
+      "Pylon": {
+        "name": "Pylon",
+        "slug": "Pylon"
+      },
+      "Assimilator": {
+        "name": "Assimilator",
+        "slug": "Assimilator"
+      },
+      "Gateway": {
+        "name": "Gateway",
+        "slug": "Gateway"
+      },
+      "Forge": {
+        "name": "Forge",
+        "slug": "Forge"
+      },
+      "Cybernetics Core": {
+        "name": "Cybernetics Core",
+        "slug": "Cybernetics_Core"
+      },
+      "Photon Cannon": {
+        "name": "Photon Cannon",
+        "slug": "Photon_Cannon"
+      },
+      "Shield Battery": {
+        "name": "Shield Battery",
+        "slug": "Shield_Battery"
+      },
+      "Robotics Facility": {
+        "name": "Robotics Facility",
+        "slug": "Robotics_Facility"
+      },
+      "Stargate": {
+        "name": "Stargate",
+        "slug": "Stargate"
+      },
+      "Robotics Support Bay": {
+        "name": "Robotics Support Bay",
+        "slug": "Robotics_Support_Bay"
+      },
+      "Observatory": {
+        "name": "Observatory",
+        "slug": "Observatory"
+      },
+      "Fleet Beacon": {
+        "name": "Fleet Beacon",
+        "slug": "Fleet_Beacon"
+      },
+      "Citadel of Adun": {
+        "name": "Citadel of Adun",
+        "slug": "Citadel_of_Adun"
+      },
+      "Templar Archives": {
+        "name": "Templar Archives",
+        "slug": "Templar_Archives"
+      },
+      "Arbiter Tribunal": {
+        "name": "Arbiter Tribunal",
+        "slug": "Arbiter_Tribunal"
+      }
+    },
+    "abilities": {
+      "Gather": {
+        "name": "Gather",
+        "slug": "SCAbility/Gather",
+        "belongs_to": [
+          "Probe"
+        ]
+      },
+      "Warp In Structure": {
+        "name": "Warp In Structure",
+        "slug": "SCAbility/Warp_In_Structure",
+        "belongs_to": [
+          "Probe"
+        ]
+      },
+      "Warp In Advanced Structure": {
+        "name": "Warp In Advanced Structure",
+        "slug": "SCAbility/Warp_In_Advanced_Structure",
+        "belongs_to": [
+          "Probe"
+        ]
+      },
+      "Psionic Storm": {
+        "name": "Psionic Storm",
+        "slug": "SCAbility/Psionic_Storm",
+        "belongs_to": [
+          "High Templar"
+        ]
+      },
+      "Hallucination": {
+        "name": "Hallucination",
+        "slug": "SCAbility/Hallucination",
+        "belongs_to": [
+          "High Templar"
+        ]
+      },
+      "Permanent Cloak — Dark Templar": {
+        "name": "Permanent Cloak",
+        "slug": "SCAbility/Permanent_Cloak",
+        "belongs_to": [
+          "Dark Templar"
+        ]
+      },
+      "Permanent Cloak — Observer": {
+        "name": "Permanent Cloak",
+        "slug": "SCAbility/Permanent_Cloak",
+        "belongs_to": [
+          "Observer"
+        ]
+      },
+      "Feedback": {
+        "name": "Feedback",
+        "slug": "SCAbility/Feedback",
+        "belongs_to": [
+          "Dark Archon"
+        ]
+      },
+      "Mind Control": {
+        "name": "Mind Control",
+        "slug": "SCAbility/Mind_Control",
+        "belongs_to": [
+          "Dark Archon"
+        ]
+      },
+      "Maelstrom": {
+        "name": "Maelstrom",
+        "slug": "SCAbility/Maelstrom",
+        "belongs_to": [
+          "Dark Archon"
+        ]
+      },
+      "Detect": {
+        "name": "Detect",
+        "slug": "SCAbility/Detect",
+        "belongs_to": [
+          "Observer"
+        ]
+      },
+      "Load": {
+        "name": "Load",
+        "slug": "SCAbility/Load",
+        "belongs_to": [
+          "Shuttle"
+        ]
+      },
+      "Unload": {
+        "name": "Unload",
+        "slug": "SCAbility/Unload",
+        "belongs_to": [
+          "Shuttle"
+        ]
+      },
+      "Disruption Web": {
+        "name": "Disruption Web",
+        "slug": "SCAbility/Disruption_Web",
+        "belongs_to": [
+          "Corsair"
+        ]
+      },
+      "Recall": {
+        "name": "Recall",
+        "slug": "SCAbility/Recall",
+        "belongs_to": [
+          "Arbiter"
+        ]
+      },
+      "Stasis Field": {
+        "name": "Stasis Field",
+        "slug": "SCAbility/Stasis_Field",
+        "belongs_to": [
+          "Arbiter"
+        ]
+      },
+      "Cloak Field": {
+        "name": "Cloak Field",
+        "slug": "SCAbility/Cloak_Field",
+        "belongs_to": [
+          "Arbiter"
+        ]
+      }
+    },
+    "upgrades": {
+      "Leg Enhancements": {
+        "name": "Leg Enhancements",
+        "slug": "SCUpgrade/Leg_Enhancements",
+        "belongs_to": [
+          "Zealot"
+        ]
+      },
+      "Singularity Charge": {
+        "name": "Singularity Charge",
+        "slug": "SCUpgrade/Singularity_Charge",
+        "belongs_to": [
+          "Dragoon"
+        ]
+      },
+      "Psionic Storm": {
+        "name": "Psionic Storm",
+        "slug": "SCUpgrade/Psionic_Storm",
+        "belongs_to": [
+          "High Templar"
+        ]
+      },
+      "Hallucination": {
+        "name": "Hallucination",
+        "slug": "SCUpgrade/Hallucination",
+        "belongs_to": [
+          "High Templar"
+        ]
+      },
+      "Khaydarin Amulet": {
+        "name": "Khaydarin Amulet",
+        "slug": "SCUpgrade/Khaydarin_Amulet",
+        "belongs_to": [
+          "High Templar"
+        ]
+      },
+      "Scarab Damage": {
+        "name": "Scarab Damage",
+        "slug": "SCUpgrade/Scarab_Damage",
+        "belongs_to": [
+          "Reaver",
+          "Scarab"
+        ]
+      },
+      "Reaver Increased Capacity": {
+        "name": "Reaver Increased Capacity",
+        "slug": "SCUpgrade/Reaver_Increased_Capacity",
+        "belongs_to": [
+          "Reaver"
+        ]
+      },
+      "Mind Control": {
+        "name": "Mind Control",
+        "slug": "SCUpgrade/Mind_Control",
+        "belongs_to": [
+          "Dark Archon"
+        ]
+      },
+      "Maelstrom": {
+        "name": "Maelstrom",
+        "slug": "SCUpgrade/Maelstrom",
+        "belongs_to": [
+          "Dark Archon"
+        ]
+      },
+      "Argus Talisman": {
+        "name": "Argus Talisman",
+        "slug": "SCUpgrade/Argus_Talisman",
+        "belongs_to": [
+          "Dark Archon"
+        ]
+      },
+      "Gravitic Booster": {
+        "name": "Gravitic Booster",
+        "slug": "SCUpgrade/Gravitic_Booster",
+        "belongs_to": [
+          "Observer"
+        ]
+      },
+      "Sensor Array": {
+        "name": "Sensor Array",
+        "slug": "SCUpgrade/Sensor_Array",
+        "belongs_to": [
+          "Observer"
+        ]
+      },
+      "Gravitic Drive": {
+        "name": "Gravitic Drive",
+        "slug": "SCUpgrade/Gravitic_Drive",
+        "belongs_to": [
+          "Shuttle"
+        ]
+      },
+      "Apial Sensors": {
+        "name": "Apial Sensors",
+        "slug": "SCUpgrade/Apial_Sensors",
+        "belongs_to": [
+          "Scout"
+        ]
+      },
+      "Gravitic Thrusters": {
+        "name": "Gravitic Thrusters",
+        "slug": "SCUpgrade/Gravitic_Thrusters",
+        "belongs_to": [
+          "Scout"
+        ]
+      },
+      "Disruption Web": {
+        "name": "Disruption Web",
+        "slug": "SCUpgrade/Disruption_Web",
+        "belongs_to": [
+          "Corsair"
+        ]
+      },
+      "Argus Jewel": {
+        "name": "Argus Jewel",
+        "slug": "SCUpgrade/Argus_Jewel",
+        "belongs_to": [
+          "Corsair"
+        ]
+      },
+      "Carrier Capacity": {
+        "name": "Carrier Capacity",
+        "slug": "SCUpgrade/Carrier_Capacity",
+        "belongs_to": [
+          "Carrier"
+        ]
+      },
+      "Recall": {
+        "name": "Recall",
+        "slug": "SCUpgrade/Recall",
+        "belongs_to": [
+          "Arbiter"
+        ]
+      },
+      "Stasis Field": {
+        "name": "Stasis Field",
+        "slug": "SCUpgrade/Stasis_Field",
+        "belongs_to": [
+          "Arbiter"
+        ]
+      },
+      "Khaydarin Core": {
+        "name": "Khaydarin Core",
+        "slug": "SCUpgrade/Khaydarin_Core",
+        "belongs_to": [
+          "Arbiter"
+        ]
+      },
+      "Ground Weapons Level 1": {
+        "name": "Ground Weapons Level 1",
+        "slug": "SCUpgrade/Ground_Weapons_Level_1",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Ground Weapons Level 2": {
+        "name": "Ground Weapons Level 2",
+        "slug": "SCUpgrade/Ground_Weapons_Level_2",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Ground Weapons Level 3": {
+        "name": "Ground Weapons Level 3",
+        "slug": "SCUpgrade/Ground_Weapons_Level_3",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Ground Armor Level 1": {
+        "name": "Ground Armor Level 1",
+        "slug": "SCUpgrade/Ground_Armor_Level_1",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Ground Armor Level 2": {
+        "name": "Ground Armor Level 2",
+        "slug": "SCUpgrade/Ground_Armor_Level_2",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Ground Armor Level 3": {
+        "name": "Ground Armor Level 3",
+        "slug": "SCUpgrade/Ground_Armor_Level_3",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Shields Level 1": {
+        "name": "Shields Level 1",
+        "slug": "SCUpgrade/Shields_Level_1",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Shields Level 2": {
+        "name": "Shields Level 2",
+        "slug": "SCUpgrade/Shields_Level_2",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Shields Level 3": {
+        "name": "Shields Level 3",
+        "slug": "SCUpgrade/Shields_Level_3",
+        "belongs_to": [
+          "Forge"
+        ]
+      },
+      "Air Weapons Level 1": {
+        "name": "Air Weapons Level 1",
+        "slug": "SCUpgrade/Air_Weapons_Level_1",
+        "belongs_to": [
+          "Cybernetics Core"
+        ]
+      },
+      "Air Weapons Level 2": {
+        "name": "Air Weapons Level 2",
+        "slug": "SCUpgrade/Air_Weapons_Level_2",
+        "belongs_to": [
+          "Cybernetics Core"
+        ]
+      },
+      "Air Weapons Level 3": {
+        "name": "Air Weapons Level 3",
+        "slug": "SCUpgrade/Air_Weapons_Level_3",
+        "belongs_to": [
+          "Cybernetics Core"
+        ]
+      },
+      "Air Armor Level 1": {
+        "name": "Air Armor Level 1",
+        "slug": "SCUpgrade/Air_Armor_Level_1",
+        "belongs_to": [
+          "Cybernetics Core"
+        ]
+      },
+      "Air Armor Level 2": {
+        "name": "Air Armor Level 2",
+        "slug": "SCUpgrade/Air_Armor_Level_2",
+        "belongs_to": [
+          "Cybernetics Core"
+        ]
+      },
+      "Air Armor Level 3": {
+        "name": "Air Armor Level 3",
+        "slug": "SCUpgrade/Air_Armor_Level_3",
+        "belongs_to": [
+          "Cybernetics Core"
+        ]
+      }
+    }
   }
 }

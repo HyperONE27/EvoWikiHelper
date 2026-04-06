@@ -1,0 +1,89 @@
+|-
+|class="title" | [https://scevo.net/posts/evo-update-1_17.html Patch 1.17]
+|2025-10-08
+|
+* Versus
+** Terran
+*** [[User:SCEvo/Marine|Marine]] build time: 17 → 16
+*** [[User:SCEvo/Marine|Marine]] attack period: 0.69 → 0.67
+*** [[User:SCEvo/SCAbility/Stimpack|Stimpack]] attack speed bonus for Marine: 100% → 75%
+**** [[User:SCEvo/Marine|Marine]] attack period after Stimpack: 0.34 → 0.38
+*** [[User:SCEvo/SCAbility/Stimpack|Stimpack]] cooldown: 0 → 0.71
+*** [[User:SCEvo/SCUpgrade/U-238_Shells|U-238 Shells]] research time: 86 → 64
+*** [[User:SCEvo/Firebat|Firebat]] build time: 17 → 16
+*** [[User:SCEvo/Firebat|Firebat]] HP: 55 → 50
+*** [[User:SCEvo/Firebat|Firebat]] weapon is no longer considered Melee, and can now hit targets behind structure walls or across unwalkable zones, but not on different cliff levels
+*** [[User:SCEvo/Firebat|Firebat]] weapon is now affected by [[Blinding Cloud]]
+*** [[User:SCEvo/Firebat|Firebat]] weapon 100% AoE damage zone is now affected by [[Guardian Shield]] and [[Microbial Shroud]]
+*** [[User:SCEvo/Medic|Medic]] build time: 17 → 16
+*** [[User:SCEvo/SCAbility/Lockdown|Lockdown]] effect duration: 27 → 23.6
+*** [[User:SCEvo/Spider Mine|Spider Mines]] no longer deal damage in their 50% and 25% AoE damage zones to other burrowed Spider Mines
+*** [[User:SCEvo/Siege Tank|Siege Tank]] allied push priority: 0 → 1
+*** [[User:SCEvo/Wraith|Wraith]] Burst Lasers attack range: 4 → 5
+*** [[User:SCEvo/Wraith|Wraith]] Gemini Missiles attack period: 0.98 → 0.94
+*** [[User:SCEvo/Valkyrie|Valkyrie]] now cycle through 14 different offset positions around the target on each attack
+*** [[User:SCEvo/Valkyrie|Valkyrie]] immobile duration when attacking: 1.65 → 1.61
+*** [[User:SCEvo/Valkyrie|Valkyrie]] attack delay between missiles: 0.42 → 0.40
+*** [[User:SCEvo/Valkyrie|Valkyrie]] attack period: 2.69 → 2.68
+*** [[User:SCEvo/Valkyrie|Valkyrie]] now resumes movement if its target becomes invalid while firing (e.g., if the target dies).
+*** [[User:SCEvo/SCAbility/Defensive Matrix|Defensive Matrix]] duration: 42 → 28.6
+*** [[User:SCEvo/SCUpgrade/EMP Shockwave|EMP Shockwave]] research time: 71 → 57
+*** [[User:SCEvo/SCAbility/Irradiate|Irradiate]] effect radius: [radius of target unit] + 1 → [radius of target unit] + 1.125
+*** [[User:SCEvo/Battlecruiser|Battlecruiser]] build cost: 375/275 → 350/250
+*** [[User:SCEvo/Battlecruiser|Battlecruiser]] HP: 550 → 500
+*** [[User:SCEvo/Battlecruiser|Battlecruiser]] ATS Laser Battery attack damage: 36 + 8 vs Mechanical → 34
+*** [[User:SCEvo/Battlecruiser|Battlecruiser]] ATS Laser Battery attack damage increase per upgrade: +4 → +3
+*** [[User:SCEvo/Battlecruiser|Battlecruiser]] ATA Laser Battery attack damage: 36 + 8 vs Mechanical → 34
+*** [[User:SCEvo/Battlecruiser|Battlecruiser]] ATA Laser Battery attack damage increase per upgrade: +4 → +3
+** Zerg
+*** [[User:SCEvo/SCUpgrade/Pneumatized Carapace|Pneumatized Carapace]] movement speed bonus: 2.16 → 2.25
+**** [[User:SCEvo/Overlord|Overlord]] movement speed after Pneumatized Carapace: 3.06 → 3.15
+*** [[User:SCEvo/SCUpgrade/Ventral Sacs|Ventral Sacs]] research cost: 175/175 → 150/150
+*** [[User:SCEvo/SCUpgrade/Ventral Sacs|Ventral Sacs]] research time: 71 → 64
+*** [[User:SCEvo/Hydralisk|Hydralisk]] attack period: 0.69 → 0.67
+*** [[User:SCEvo/Lurker|Lurker]] attack damage increase per upgrade: +2 → +3
+*** [[User:SCEvo/Scourge|Scourge]] HP: 25 → 30
+*** [[User:SCEvo/Scourge|Scourge]] attack damage point: 0.04 → 0
+*** [[User:SCEvo/Scourge|Scourge]] now automatically targets air units with anti-ground weapons
+*** [[User:SCEvo/Mutalisk|Mutalisk]] attack range: 4 → 4.5
+*** [[User:SCEvo/Devourer#Acid Spores|Acid Spores]] behavior expiration cooldown: 15 → 27.1
+*** [[User:SCEvo/Devourer#Acid Spores|Acid Spores]] no longer affects the rate at which [[Carriers]] launch Interceptors
+*** [[User:SCEvo/Guardian|Guardian]] attack damage point: 0.12 → 0.07
+*** [[User:SCEvo/Guardian|Guardian]] attack damage increase per upgrade: +2 → +3
+*** [[User:SCEvo/SCAbility/Ensnare|Ensnare]] no longer slows the attack speed of units with turret weapons
+**** This includes: Siege Tank ([[User:SCEvo/Siege Tank|BW]] and [[Siege Tank|SC2]]), [[User:SCEvo/Goliath|Goliath]], [[Hellion]], [[Hellbat]], [[Cyclone]], [[Liberator]] (Defender Mode only), [[Battlecruiser]] (SC2 only), [[Immortal]], [[Colossus]]
+*** [[User:SCEvo/SCAbility/Ensnare|Ensnare]] no longer affects the rate at which [[Carriers]] launch Interceptors or [[User:SCEvo/Reaver|Reavers]] launch [[User:SCEvo/Scarab|Scarabs]]
+*** [[User:SCEvo/SCAbility/Ensnare|Ensnare]] effect duration: 21.4 → 14.3
+*** [[User:SCEvo/SCAbility/Dark Swarm|Dark Swarm]] effect duration: 32.1 → 20
+*** [[User:SCEvo/SCAbility/Dark Swarm|Dark Swarm]] now prevents units inside from taking damage from the 50% and 25% AoE damage zones of radial splash attacks, such as those of the [[Siege Tank]] and [[Archon]]
+*** [[User:SCEvo/SCUpgrade/Anabolic Synthesis|Anabolic Synthesis]] research cost: 150/150 → 125/125
+*** [[User:SCEvo/SCUpgrade/Chitinous Plating|Chitinous Plating]] research cost: 150/150 → 125/125
+*** Units produced after building a Brood War or StarCraft II Command Center, Hatchery, or Nexus using an enemy worker under the effects of [[Neural Parasite]] now consume supply
+**** Brood War and StarCraft II Terran units now consume a shared Food pool, up to a max of 200
+**** Brood War and StarCraft II Zerg units now consume a shared Control pool, up to a max of 200
+**** Brood War and StarCraft II Protoss units now consume a shared Psi pool, up to a max of 200
+** Protoss
+*** [[User:SCEvo/Templar Archives|Templar Archives]] build time: 29 → 36
+*** [[User:SCEvo/Dark Templar|Dark Templar]] build time: 30 → 27
+*** [[User:SCEvo/Dark Templar|Dark Templar]] attack damage increase per upgrade: +3 → +5
+*** [[User:SCEvo/SCAbility/Feedback|Feedback]] cast range: 10 → 10.5
+*** Units possessed by [[User:SCEvo/SCAbility/Mind Control|Mind Control]] now consume supply
+**** Brood War and StarCraft II Terran units now consume a shared Food pool, up to a max of 200
+**** Brood War and StarCraft II Zerg units now consume a shared Control pool, up to a max of 200
+**** Brood War and StarCraft II Protoss units now consume a shared Psi pool, up to a max of 200
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack damage: 4 x 4 → 7 x 2
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack damage bonus: +1 vs Light → +2 vs Light
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack damage increase per upgrade: +0.5 → +1
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack period: 1.25 → 1.12
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack point: 0.12 → 0.07
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack range: 4 → 5
+*** [[User:SCEvo/Corsair|Corsair]] build time: 22 → 23
+*** [[User:SCEvo/SCAbility/Disruption Web|Disruption Web]] Energy cost: 125 → 100
+*** [[User:SCEvo/SCAbility/Disruption Web|Disruption Web]] effect duration: 12.5 → 10.7
+*** [[User:SCEvo/Interceptor|Interceptors]] now launch projectiles instead of firing lasers
+*** [[User:SCEvo/Interceptor|Interceptor]] attack projectile speed: 19.6 → 29.4
+*** [[User:SCEvo/SCAbility/Stasis Field|Stasis Field]] effect duration: 32.9 → 23.6
+*** [[User:SCEvo/SCAbility/Recall|Recall]] activation delay: 1.43 → 0.98
+*** [[User:SCEvo/SCAbility/Recall|Recall]] no longer requires units to be inside the targeting area to activate
+*** [[User:SCEvo/SCAbility/Recall|Recall]] no longer stuns affected units
+*** [[User:SCEvo/SCAbility/Recall|Recall]] no longer automatically fails when targeting ground units if there is no unpathable ground directly under the Arbiter, and instead will try to find a suitable location to place units up to 3 tiles away
