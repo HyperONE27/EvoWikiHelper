@@ -30,11 +30,18 @@
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
+* Lockdown research cost decreased from 150/150 to 125/125.
+|}
+
+; Medic
+{| class="wikitable collapsible collapsed"
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+|-
+|
 * Restoration research time increased from 42.9 seconds to 57.1 seconds.
 * Restoration Energy cost increased from 50 to 75.
-* Optic Flare research time increased from 42.9 seconds to 64.3 seconds.
-* Optic Flare Energy cost decreased from 75 to 50.
-* Lockdown research cost decreased from 150/150 to 125/125.
+* Optical Flare research time increased from 42.9 seconds to 64.3 seconds.
+* Optical Flare Energy cost decreased from 75 to 50.
 |}
 
 ; Goliath
@@ -117,11 +124,17 @@
 |-
 |
 * Build time decreased from 28.6 seconds to 25 seconds.
+|}
+
+; Hydralisk
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
 * Muscular Augments research cost increased from 100/100 to 125/125.
 * Grooved Spines research cost increased from 100/100 to 125/125.
 |}
 
-; Hydralisk
 {| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-

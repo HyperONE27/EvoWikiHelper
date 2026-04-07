@@ -93,6 +93,20 @@ A full list of all changes from one patch, grouped by race.
 
 ---
 
+## Upgrade / Ability Ownership (Mode B)
+
+When grouping changes into per-entity tables for Mode B, an upgrade or ability change belongs to the unit listed in its `belongs_to` field in `entities.json` — NOT to the structure that researches it. For example:
+
+- `Grooved Spines` and `Muscular Augments` have `belongs_to: ["Hydralisk"]` → their changes go in the **Hydralisk** table, not Hydralisk Den.
+- `Charon Boosters` belongs to Goliath → goes in the Goliath table, not Armory.
+- `Stimpack` belongs to Marine and Firebat → put it in both tables.
+
+The structure (Hydralisk Den, Armory, etc.) only gets its own entries for changes to the structure itself (build time, build cost, HP).
+
+If an upgrade has no `belongs_to` field, route by best judgment and flag with `<!-- AMBIGUOUS OWNERSHIP: {name} -->`.
+
+---
+
 ## Output Mode B: Per-Unit Patch History
 
 For a specific unit/ability/upgrade's wiki page. Shows what changed for that entity in a given patch, wrapped in a collapsible wikitable with a citation.
