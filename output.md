@@ -2,7 +2,7 @@
 
 ; Barracks
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Build time increased from 46.4 seconds to 50 seconds.
@@ -10,7 +10,7 @@
 
 ; SCV
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack period increased from 1.07 seconds to 1.1 seconds.
@@ -18,7 +18,7 @@
 
 ; Vulture
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Attack period decreased from 1.36 seconds to 1.32 seconds.
@@ -27,7 +27,7 @@
 
 ; Ghost
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Restoration research time increased from 42.9 seconds to 57.1 seconds.
@@ -39,7 +39,7 @@
 
 ; Goliath
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Anti-air attack period increased from 0.94 seconds to 1.03 seconds.
@@ -48,7 +48,7 @@
 
 ; Dropship
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build cost decreased from 100/50 to 100/25.
@@ -58,7 +58,7 @@
 
 ; Science Vessel
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Build cost increased from 100/200 to 100/225.
@@ -68,7 +68,7 @@
 
 ; Valkyrie
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Attack period decreased from 2.68 seconds to 2.54 seconds.
@@ -76,7 +76,7 @@
 
 ; Defensive Matrix
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * No longer dispelled by [[Interference Matrix]].
@@ -86,7 +86,7 @@
 
 ; Spore Colony
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack damage decreased from 20 to 15.
@@ -95,7 +95,7 @@
 
 ; Sunken Colony
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack period decreased from 1.34 seconds to 1.25 seconds.
@@ -103,7 +103,7 @@
 
 ; Overlord
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Pneumatized Carapace movement speed bonus decreased from 2.25 to 2.16.
@@ -113,7 +113,7 @@
 
 ; Hydralisk Den
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build time decreased from 28.6 seconds to 25 seconds.
@@ -123,7 +123,7 @@
 
 ; Hydralisk
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack period increased from 0.67 seconds to 0.69 seconds.
@@ -132,7 +132,7 @@
 
 ; Lurker
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Attack range increased from 7 to 8.
@@ -142,7 +142,7 @@
 
 ; Spire
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build cost adjusted from 200/150 to 150/150.
@@ -150,7 +150,7 @@
 |}
 
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Build cost adjusted from 150/150 to 200/150.
@@ -159,7 +159,7 @@
 
 ; Mutalisk
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Attack range increased from 4.5 to 5.
@@ -169,7 +169,7 @@
 |}
 
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack damage decreased from 10 to 9.
@@ -179,7 +179,7 @@
 
 ; Queen
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Parasite can no longer target Frenzied units.
@@ -189,7 +189,7 @@
 
 ; Guardian
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack damage decreased from 25 to 20.
@@ -200,7 +200,7 @@
 
 ; Devourer
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Morph cost increased from 50/50 to 100/50.
@@ -209,7 +209,7 @@
 
 ; Ultralisk
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Radius decreased from 0.875 to 0.75.
@@ -217,7 +217,7 @@
 |}
 
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Build cost adjusted from 175/175 to 200/150.
@@ -227,7 +227,7 @@
 
 ; Defiler
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build time decreased from 35.7 seconds to 32.1 seconds.
@@ -237,7 +237,7 @@
 
 ; Pylon
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * HP decreased from 300 to 250.
@@ -246,7 +246,7 @@
 
 ; Shield Battery
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build time decreased from 25 seconds to 21.4 seconds.
@@ -254,7 +254,7 @@
 
 ; Dragoon
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Movement speed increased from 4.11 to 4.13.
@@ -262,7 +262,7 @@
 
 ; Shuttle
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Gravitic Drive research cost increased from 125/125 to 150/150.
@@ -271,7 +271,7 @@
 
 ; Reaver
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * No longer Massive.
@@ -286,7 +286,7 @@
 
 ; Scarab
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build time decreased from 4.69 seconds to 4.38 seconds.
@@ -295,7 +295,7 @@
 
 ; High Templar
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Psionic Storm research time increased from 71.4 seconds to 78.6 seconds.
@@ -305,7 +305,7 @@
 
 ; Dark Archon
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Maelstrom research cost decreased from 150/150 to 100/100.
@@ -314,7 +314,7 @@
 
 ; Scout
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build cost decreased from 200/100 to 175/100.
@@ -331,7 +331,7 @@
 
 ; Corsair
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Turning rate increased from 1400 to 2100.
@@ -340,7 +340,7 @@
 
 ; Arbiter
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
 |-
 |
 * Build cost increased from 100/300 to 100/350.

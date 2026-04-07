@@ -101,7 +101,7 @@ For a specific unit/ability/upgrade's wiki page. Shows what changed for that ent
 
 ```
 {| class="wikitable collapsible collapsed"
-! Patch {version} <ref>{{Cite web|url={url}|author=Team Koprulu|publisher=Team Koprulu|date={date}}}</ref>
+! Patch {version}<ref>{{Cite web|url={url}|title=SCEvo Update {version} Notes|author=Team Koprulu|publisher=Team Koprulu|date={date}}}</ref>
 |-
 |
 * {Change description in prose form.}

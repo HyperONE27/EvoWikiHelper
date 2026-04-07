@@ -250,7 +250,7 @@ def validate_mode_b(lines: list[str], entities: dict) -> tuple[list, list, list]
                     for part in cite_match.group(1).split("|")
                     if "=" in part
                 )
-                allowed = ("url", "author", "publisher", "date")
+                allowed = ("url", "title", "author", "publisher", "date")
                 missing = [f for f in allowed if f not in fields]
                 extra = [f for f in fields if f not in allowed]
                 if missing:
