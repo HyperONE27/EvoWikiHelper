@@ -1,4 +1,4 @@
-== Patch 1.18.1 ==
+== Terran ==
 
 ; Barracks
 {| class="wikitable collapsible collapsed"
@@ -14,6 +14,15 @@
 |-
 |
 * Attack period increased from 1.07 seconds to 1.1 seconds.
+|}
+
+; Vulture
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Attack period decreased from 1.36 seconds to 1.32 seconds.
+* Spider Mines research time decreased from 57.1 seconds to 50 seconds.
 |}
 
 ; Ghost
@@ -37,6 +46,16 @@
 * Charon Boosters attack range bonus increased from +2 to +2.5.
 |}
 
+; Dropship
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Build cost decreased from 100/50 to 100/25.
+* Build time decreased from 25 seconds to 22.9 seconds.
+* HP decreased from 180 to 150.
+|}
+
 ; Science Vessel
 {| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
@@ -47,6 +66,14 @@
 * EMP Shockwave research cost decreased from 150/150 to 125/125.
 |}
 
+; Valkyrie
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Attack period decreased from 2.68 seconds to 2.54 seconds.
+|}
+
 ; Defensive Matrix
 {| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
@@ -54,6 +81,8 @@
 |
 * No longer dispelled by [[Interference Matrix]].
 |}
+
+== Zerg ==
 
 ; Spore Colony
 {| class="wikitable collapsible collapsed"
@@ -82,6 +111,16 @@
 * Ventral Sacs research time increased from 64.3 seconds to 71.4 seconds.
 |}
 
+; Hydralisk Den
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Build time decreased from 28.6 seconds to 25 seconds.
+* Muscular Augments research cost increased from 100/100 to 125/125.
+* Grooved Spines research cost increased from 100/100 to 125/125.
+|}
+
 ; Hydralisk
 {| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
@@ -91,7 +130,25 @@
 * Grooved Spines research cost decreased from 125/125 to 75/75.
 |}
 
+; Lurker
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Attack range increased from 7 to 8.
+* Attack damage adjusted from 25 to 20 + 5 vs Light.
+* Attack damage increase per upgrade decreased from +3 to +2.
+|}
+
 ; Spire
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Build cost adjusted from 200/150 to 150/150.
+* Build time decreased from 71.4 seconds to 66 seconds.
+|}
+
 {| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
@@ -102,12 +159,32 @@
 
 ; Mutalisk
 {| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Attack range increased from 4.5 to 5.
+* Movement acceleration increased from 5.86 to 8.75.
+* Radius decreased from 0.6875 to 0.5.
+* Separation radius increased from 0.4 to 0.5.
+|}
+
+{| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Attack damage decreased from 10 to 9.
 * Attack period increased from 1.21 seconds to 1.25 seconds.
 * Separation radius while moving decreased from 0.5 to 0.1.
+|}
+
+; Queen
+{| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Parasite can no longer target Frenzied units.
+* Spawn Broodlings can no longer target Frenzied units.
+* Spawn Broodlings cast range decreased from 10 to 9.
 |}
 
 ; Guardian
@@ -132,100 +209,20 @@
 
 ; Ultralisk
 {| class="wikitable collapsible collapsed"
+! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+|-
+|
+* Radius decreased from 0.875 to 0.75.
+* Model size decreased from 0.8125 to 0.75.
+|}
+
+{| class="wikitable collapsible collapsed"
 ! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
 |-
 |
 * Build cost adjusted from 175/175 to 200/150.
 * Anabolic Synthesis research cost increased from 125/125 to 150/150.
 * Chitinous Plating research cost increased from 125/125 to 150/150.
-|}
-
-== Patch 1.18 ==
-
-; Vulture
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack period decreased from 1.36 seconds to 1.32 seconds.
-* Spider Mines research time decreased from 57.1 seconds to 50 seconds.
-|}
-
-; Dropship
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build cost decreased from 100/50 to 100/25.
-* Build time decreased from 25 seconds to 22.9 seconds.
-* HP decreased from 180 to 150.
-|}
-
-; Valkyrie
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack period decreased from 2.68 seconds to 2.54 seconds.
-|}
-
-; Hydralisk Den
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build time decreased from 28.6 seconds to 25 seconds.
-* Muscular Augments research cost increased from 100/100 to 125/125.
-* Grooved Spines research cost increased from 100/100 to 125/125.
-|}
-
-; Lurker
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack range increased from 7 to 8.
-* Attack damage adjusted from 25 to 20 + 5 vs Light.
-* Attack damage increase per upgrade decreased from +3 to +2.
-|}
-
-; Spire
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build cost adjusted from 200/150 to 150/150.
-* Build time decreased from 71.4 seconds to 66 seconds.
-|}
-
-; Mutalisk
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack range increased from 4.5 to 5.
-* Movement acceleration increased from 5.86 to 8.75.
-* Radius decreased from 0.6875 to 0.5.
-* Separation radius increased from 0.4 to 0.5.
-|}
-
-; Queen
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Parasite can no longer target Frenzied units.
-* Spawn Broodlings can no longer target Frenzied units.
-* Spawn Broodlings cast range decreased from 10 to 9.
-|}
-
-; Ultralisk
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Radius decreased from 0.875 to 0.75.
-* Model size decreased from 0.8125 to 0.75.
 |}
 
 ; Defiler
@@ -235,6 +232,8 @@
 |
 * Build time decreased from 35.7 seconds to 32.1 seconds.
 |}
+
+== Protoss ==
 
 ; Pylon
 {| class="wikitable collapsible collapsed"
