@@ -44,6 +44,9 @@ def check_balanced_delimiters(line: str, line_num: int, errors: list):
     Wiki links [[...]] and templates {{...}} use doubled delimiters —
     we count individual characters so a missing closer is still caught.
     """
+    # Consume wikitable tokens ({|, |}) before brace counting; they are
+    # tracked separately at the file level via check_wikitable_balance.
+    line = line.replace("{|", "").replace("|}", "")
     stack = []
     for ch in line:
         if ch in DELIMITERS:
@@ -199,6 +202,7 @@ def validate_mode_b(lines: list[str], entities: dict) -> tuple[list, list, list]
     has_table_open = False
     has_table_close = False
     has_citation = False
+    table_depth = 0
 
     for i, raw_line in enumerate(lines, 1):
         line = raw_line.rstrip()
@@ -220,24 +224,45 @@ def validate_mode_b(lines: list[str], entities: dict) -> tuple[list, list, list]
         if WRONG_ARROW.search(line):
             errors.append(f"L{i}: wrong arrow (use →): {line.strip()}")
 
-        # Table structure
-        if line.startswith('{| class="wikitable'):
+        # Table structure: track {| / |} balance across lines
+        opens = line.count("{|")
+        closes = line.count("|}")
+        if opens:
             has_table_open = True
-        if line.strip() == "|}":
-            has_table_close = True
+            table_depth += opens
+        if closes:
+            table_depth -= closes
+            if table_depth >= 0:
+                has_table_close = True
+            if table_depth < 0:
+                errors.append(f"L{i}: unexpected wikitable close '|}}' with no matching '{{|'")
+                table_depth = 0
         if "<ref>" in line and "Cite web" in line:
             has_citation = True
 
             # Validate citation structure
-            cite_match = re.search(
-                r"\{\{Cite web\|url=([^|]*)\|author=([^|]*)\|publisher=([^|]*)\|date=([^}]*)\}\}",
-                line,
-            )
+            cite_match = re.search(r"\{\{Cite web\|([^}]*)\}\}", line)
             if not cite_match:
                 errors.append(f"L{i}: malformed citation — check Cite web template fields")
             else:
-                url = cite_match.group(1)
-                date = cite_match.group(4)
+                fields = dict(
+                    part.split("=", 1)
+                    for part in cite_match.group(1).split("|")
+                    if "=" in part
+                )
+                allowed = ("url", "author", "publisher", "date")
+                missing = [f for f in allowed if f not in fields]
+                extra = [f for f in fields if f not in allowed]
+                if missing:
+                    errors.append(
+                        f"L{i}: citation missing field(s): {', '.join(missing)}"
+                    )
+                if extra:
+                    errors.append(
+                        f"L{i}: citation has disallowed field(s): {', '.join(extra)}"
+                    )
+                url = fields.get("url", "")
+                date = fields.get("date", "")
                 if not url:
                     warnings.append(f"L{i}: empty URL in citation")
                 if not date:
@@ -258,6 +283,8 @@ def validate_mode_b(lines: list[str], entities: dict) -> tuple[list, list, list]
         errors.append("missing wikitable opening: {| class=\"wikitable ...\"")
     if not has_table_close:
         errors.append("missing wikitable closing: |}")
+    if table_depth > 0:
+        errors.append(f"unclosed wikitable(s): {table_depth} '{{|' without matching '|}}'")
     if not has_citation:
         warnings.append("no citation/ref found in table header")
 
