@@ -360,7 +360,6 @@ def main():
     units = [
         ("Marine", 6, 1, 0.67, 2, 1),
         ("MarineBonus", 6, 1, 0.67 / 1.75, 2, 1),
-        ("Wraith", 15, 1.5, 0.94, 1, 1),
         ("Valkyrie", 4.5, 0.75, 2.54, 1, 8),
         ("Hydralisk", 7.5, 0.75, 0.69, 1, 1),
         ("Scout", 7, 1, 1.12, 2, 2),
@@ -372,10 +371,14 @@ def main():
         ("Mutalisk", 9, 1, 1.25, 2, 1),
         ("MutaliskB1", 3, 0.333, 1.25, 2, 1),
         ("MutaliskB2", 1, 0.111, 1.25, 2, 1),
-        ("Guardian", 20, 2, 1.25, 2, 1),
         ("Goliath", 7.5, 1.5, 1.03, 1, 2),
         ("SporeColony", 15, 0, 0.61, 2, 1),
         ("SunkenColony", 30, 0, 1.25, 1, 1),
+        ("Wraith", 15, 1, 1.25, 2, 1),
+        ("Guardian", 20, 3, 1.25, 2, 1),
+        ("Devourer", 18.75, 2.25, 2.54, 1, 1),
+        ("Interceptor", 6, 1, 1.58, 2, 1),
+        ("Carrier", 6, 1, 1.58, 2, 8),
     ]
     
     for unit_params in units:

@@ -1,361 +1,130 @@
-== Terran ==
+|-
+|class="title" | [https://scevo.net/posts/evo-update-1_18_2.html Patch 1.18.2]
+|2026-04-09
+|
+* Versus
+** Terran
+*** [[User:SCEvo/Wraith|Wraith]] anti-ground attack damage: 14 → 15
+*** [[User:SCEvo/Wraith|Wraith]] separation radius while moving: 0.5 → 0.1
+** Zerg
+*** [[User:SCEvo/Zergling|Zergling]] Unburrow period: 0.71 → 0.36
+*** [[User:SCEvo/Zergling|Zergling]] Unburrow random delay: 0.36 → 0.08
+*** [[User:SCEvo/Hydralisk|Hydralisk]] Unburrow period: 0.71 → 0.36
+*** [[User:SCEvo/Hydralisk|Hydralisk]] Unburrow random delay: 0.36 → 0.08
+*** [[User:SCEvo/Guardian|Guardian]] attack damage increase per upgrade: +2 → +3
+*** [[User:SCEvo/Devourer|Devourer]] attack period: 3.11 → 2.54
+*** [[User:SCEvo/Devourer#Acid Spores|Acid Spores]] visuals now scale in size based on the stack count of Acid Spores
+*** [[User:SCEvo/SCAbility/Consume|Consume]] can now target player-owned Changelings
+*** StarCraft II Queens can now target allied Brood War Hatcheries, Lairs, and Hives with the Spawn Larvae ability
+** Protoss
+*** [[User:SCEvo/SCAbility/Feedback|Feedback]] cast range: 10.5 → 10
+*** [[User:SCEvo/Shuttle|Shuttle]] build cost: 175/0 → 200/0
+*** [[User:SCEvo/Shuttle|Shuttle]] Plasma Shields: 80 → 70
+*** [[User:SCEvo/Reaver|Reaver]] armor: 1 → 0
+*** [[User:SCEvo/Reaver|Reaver]] movement speed: 1.50 → 1.4
+*** [[User:SCEvo/Reaver|Reaver]] attack period: 2.68 → 2.5
+*** [[User:SCEvo/Reaver|Reaver]] attack range: 8 → 9
+*** [[User:SCEvo/Scout|Scout]] Dual Photon Blasters attack period: 0.89 → 0.94
+*** [[User:SCEvo/Interceptor|Interceptor]] weapon is now hitscan
+*** [[User:SCEvo/Interceptor|Interceptor]] attack period: 1.21 → 1.58
+*** [[User:SCEvo/Interceptor|Interceptor]] Plasma Shields regen rate when inside a Carrier: 42 → ∞
+*** StarCraft II Pylons now activate their Warp Conduit passive when near an allied Brood War Nexus
+*** Fixed an issue where Chrono Boost could not be activated on player-owned Brood War structures
 
-; Barracks
+; Wraith
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Build time increased from 46.4 seconds to 50 seconds.
+* Anti-ground attack damage increased from 14 to 15.
+* Separation radius while moving decreased from 0.5 to 0.1.
 |}
 
-; SCV
+; Zergling
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Attack period increased from 1.07 seconds to 1.1 seconds.
-|}
-
-; Vulture
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack period decreased from 1.36 seconds to 1.32 seconds.
-* Spider Mines research time decreased from 57.1 seconds to 50 seconds.
-|}
-
-; Ghost
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Lockdown research cost decreased from 150/150 to 125/125.
-|}
-
-; Medic
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Restoration research time increased from 42.9 seconds to 57.1 seconds.
-* Restoration Energy cost increased from 50 to 75.
-* Optical Flare research time increased from 42.9 seconds to 64.3 seconds.
-* Optical Flare Energy cost decreased from 75 to 50.
-|}
-
-; Goliath
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Anti-air attack period increased from 0.94 seconds to 1.03 seconds.
-* Charon Boosters attack range bonus increased from +2 to +2.5.
-|}
-
-; Dropship
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build cost decreased from 100/50 to 100/25.
-* Build time decreased from 25 seconds to 22.9 seconds.
-* HP decreased from 180 to 150.
-|}
-
-; Science Vessel
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Build cost increased from 100/200 to 100/225.
-* Build time increased from 34.3 seconds to 39.3 seconds.
-* EMP Shockwave research cost decreased from 150/150 to 125/125.
-|}
-
-; Valkyrie
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack period decreased from 2.68 seconds to 2.54 seconds.
-|}
-
-; Defensive Matrix
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* No longer dispelled by [[Interference Matrix]].
-|}
-
-== Zerg ==
-
-; Spore Colony
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Attack damage decreased from 20 to 15.
-* Attack period decreased from 0.67 seconds to 0.61 seconds.
-|}
-
-; Sunken Colony
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Attack period decreased from 1.34 seconds to 1.25 seconds.
-|}
-
-; Overlord
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Pneumatized Carapace movement speed bonus decreased from 2.25 to 2.16.
-* Ventral Sacs research cost increased from 150/150 to 200/200.
-* Ventral Sacs research time increased from 64.3 seconds to 71.4 seconds.
-|}
-
-; Hydralisk Den
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build time decreased from 28.6 seconds to 25 seconds.
+* Unburrow period decreased from 0.71 seconds to 0.36 seconds.
+* Unburrow random delay decreased from 0.36 seconds to 0.08 seconds.
 |}
 
 ; Hydralisk
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Muscular Augments research cost increased from 100/100 to 125/125.
-* Grooved Spines research cost increased from 100/100 to 125/125.
-|}
-
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Attack period increased from 0.67 seconds to 0.69 seconds.
-* Grooved Spines research cost decreased from 125/125 to 75/75.
-|}
-
-; Lurker
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack range increased from 7 to 8.
-* Attack damage adjusted from 25 to 20 + 5 vs Light.
-* Attack damage increase per upgrade decreased from +3 to +2.
-|}
-
-; Spire
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build cost adjusted from 200/150 to 150/150.
-* Build time decreased from 71.4 seconds to 66 seconds.
-|}
-
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Build cost adjusted from 150/150 to 200/150.
-* Build time increased from 66 seconds to 71.4 seconds.
-|}
-
-; Mutalisk
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Attack range increased from 4.5 to 5.
-* Movement acceleration increased from 5.86 to 8.75.
-* Radius decreased from 0.6875 to 0.5.
-* Separation radius increased from 0.4 to 0.5.
-|}
-
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Attack damage decreased from 10 to 9.
-* Attack period increased from 1.21 seconds to 1.25 seconds.
-* Separation radius while moving decreased from 0.5 to 0.1.
-|}
-
-; Queen
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Parasite can no longer target Frenzied units.
-* Spawn Broodlings can no longer target Frenzied units.
-* Spawn Broodlings cast range decreased from 10 to 9.
+* Unburrow period decreased from 0.71 seconds to 0.36 seconds.
+* Unburrow random delay decreased from 0.36 seconds to 0.08 seconds.
 |}
 
 ; Guardian
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Attack damage decreased from 25 to 20.
-* Attack damage increase per upgrade decreased from +3 to +2.
-* Attack period decreased from 1.34 seconds to 1.25 seconds.
-* Attack range increased from 10 to 11.
+* Attack damage increase per upgrade increased from +2 to +3.
 |}
 
 ; Devourer
 {| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Morph cost increased from 50/50 to 100/50.
-* Attack range increased from 7 to 8.
-|}
-
-; Ultralisk
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Radius decreased from 0.875 to 0.75.
-* Model size decreased from 0.8125 to 0.75.
-|}
-
-{| class="wikitable collapsible collapsed"
-! Patch 1.18.1<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_1.html|title=SCEvo Update 1.18.1 Notes|author=Team Koprulu|publisher=Team Koprulu|date=31 March 2026}}</ref>
-|-
-|
-* Build cost adjusted from 175/175 to 200/150.
-* Anabolic Synthesis research cost increased from 125/125 to 150/150.
-* Chitinous Plating research cost increased from 125/125 to 150/150.
+* Attack period decreased from 3.11 seconds to 2.54 seconds.
+* Acid Spores visuals now scale in size based on the stack count.
 |}
 
 ; Defiler
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Build time decreased from 35.7 seconds to 32.1 seconds.
-|}
-
-== Protoss ==
-
-; Pylon
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* HP decreased from 300 to 250.
-* Plasma Shields decreased from 300 to 250.
-|}
-
-; Shield Battery
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build time decreased from 25 seconds to 21.4 seconds.
-|}
-
-; Dragoon
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Movement speed increased from 4.11 to 4.13.
-|}
-
-; Shuttle
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Gravitic Drive research cost increased from 125/125 to 150/150.
-* Gravitic Drive research time increased from 71.4 seconds to 78.6 seconds.
-|}
-
-; Reaver
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* No longer Massive.
-** Scarabs remain Massive.
-* Build time decreased from 39.2 seconds to 35.7 seconds.
-* Scarabs re-tracking Adepts / Stalkers / Dark Templar after Psionic Transfer / Blink / Shadow Stride is no longer restricted to teleportations completing inside the original weapon range of the attacking Reaver, and now will re-track the target at any range so long as the teleport completed in vision of the player owning the Reaver.
-** This behavior is no longer cancelled if the Reaver that fired the Scarab is destroyed.
-** This behavior is cancelled if the Reaver is lifted by the Phoenix's Graviton Beam.
-** This behavior is still cancelled if the Reaver is picked up by a transport, or if the player owning the Reaver loses vision of the target.
-** Scarabs will continue to track non-teleporting targets as usual, even without vision.
-|}
-
-; Scarab
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build time decreased from 4.69 seconds to 4.38 seconds.
-* Scarab Damage research cost increased from 125/125 to 150/150.
-|}
-
-; High Templar
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Psionic Storm research time increased from 71.4 seconds to 78.6 seconds.
-* Hallucination no longer requires an upgrade.
-* Hallucinations now follow Brood War rules instead of StarCraft II rules.
+* Consume can now target player-owned Changelings.
 |}
 
 ; Dark Archon
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Maelstrom research cost decreased from 150/150 to 100/100.
-* Mind Control can no longer target allied units.
+* Feedback cast range decreased from 10.5 to 10.
+|}
+
+; Shuttle
+{| class="wikitable collapsible collapsed"
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
+|-
+|
+* Build cost increased from 175/0 to 200/0.
+* Plasma Shields decreased from 80 to 70.
+|}
+
+; Reaver
+{| class="wikitable collapsible collapsed"
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
+|-
+|
+* Armor decreased from 1 to 0.
+* Movement speed decreased from 1.50 to 1.4.
+* Attack period decreased from 2.68 seconds to 2.5 seconds.
+* Attack range increased from 8 to 9.
 |}
 
 ; Scout
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Build cost decreased from 200/100 to 175/100.
-* Build time decreased from 34.3 seconds to 32.1 seconds.
-* HP decreased from 150 to 100.
-* Movement speed increased from 4.46 to 4.55.
-** Gravitic Thrusters movement speed bonus decreased from 0.79 to 0.7.
-* Movement acceleration increased from 4.2 to 4.46.
-* Movement lateral acceleration decreased from 4.2 to 2.8.
-* Anti-air attack period decreased from 0.98 seconds to 0.89 seconds.
-* Anti-ground attack damage bonus adjusted from +2 vs Light to +3 vs Light.
-* Anti-ground attack damage point increased from 0.07 seconds to 0.12 seconds.
+* Dual Photon Blasters attack period increased from 0.89 seconds to 0.94 seconds.
 |}
 
-; Corsair
+; Interceptor
 {| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
+! Patch 1.18.2<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18_2.html|title=SCEvo Update 1.18.2 Notes|author=Team Koprulu|publisher=Team Koprulu|date=9 April 2026}}</ref>
 |-
 |
-* Turning rate increased from 1400 to 2100.
-* Stationary turning rate increased from 1050 to 2100.
-|}
-
-; Arbiter
-{| class="wikitable collapsible collapsed"
-! Patch 1.18<ref>{{Cite web|url=https://scevo.net/posts/evo-update-1_18.html|title=SCEvo Update 1.18 Notes|author=Team Koprulu|publisher=Team Koprulu|date=21 March 2026}}</ref>
-|-
-|
-* Build cost increased from 100/300 to 100/350.
-* Stasis Field research time decreased from 71.4 seconds to 64.3 seconds.
+* Weapon is now hitscan.
+* Attack period increased from 1.21 seconds to 1.58 seconds.
+* Plasma Shields regen rate when inside a Carrier increased from 42 to ∞.
 |}
