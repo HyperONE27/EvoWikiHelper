@@ -43,13 +43,13 @@ class DPSCalculator:
             TargetType.BASE: 1.0,
             TargetType.LIGHT: 1.0,
             TargetType.ARMORED: -0.5,
-            TargetType.SHIELDS: 0.5
+            TargetType.SHIELDS: 0.75
         },
         DamageType.EXPLOSIVE: {
             TargetType.BASE: 1.0,
             TargetType.LIGHT: -1/6,
             TargetType.ARMORED: 1/3,
-            TargetType.SHIELDS: 0.0
+            TargetType.SHIELDS: 1/6
         },
         DamageType.NORMAL: {
             TargetType.BASE: 1.0,
@@ -364,6 +364,23 @@ def main():
         ("HydraliskOld", 7.5, 0.75, 0.67, 1, 1),
         ("HydraliskNew", 7.5, 0.75, 0.69, 1, 1),
         ("SunkenColonyNew", 30, 0, 1.34, 1, 1),
+        ("MissileTurret", 18.75, 0, 0.61, 1, 1),
+        ("Dragoon", 15, 1.5, 1.34, 1, 1),
+        ("ScoutAA", 10.5, 0.75, 0.94, 1, 2),
+        ("Corsair", 3.75, 0.75, 0.36, 1, 1),
+        ("Arbiter", 7.5, 0.75, 1.88, 1, 1),
+        ("Firebat", 4, 0.5, 0.94, 0, 3),
+        ("FirebatStim", 4, 0.5, 0.47, 0, 3),
+        ("Ghost", 5, 0.5, 0.94, 0, 1),
+        ("Vulture", 10, 1, 1.25, 0, 1,),
+        ("TankMode", 22.5, 2.25, 1.28, 1, 1),
+        ("SiegeMode", 52.5, 3.75, 2.7, 1, 1),
+        ("GoliathAA", 7.5, 1.5, 0.94, 1, 2),
+        ("Wraith", 15, 1.5, 0.94, 1, 1),
+        ("Valkyrie", 4.5, 0.75, 2.54, 1, 8),
+        ("Hydralisk", 7.5, 0.75, 0.72, 1, 1),
+        ("InfestedTerran", 375, 0, 1, 1, 1),
+        ("Devourer", 18.75, 2.25, 2.54, 1, 1),
     ]
     
     for unit_params in units:
